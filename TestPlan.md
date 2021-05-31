@@ -80,7 +80,7 @@ Above aspects are divided into further two categories :
     | -------- |---------------------- | --------------- |
     | `High Priority` | Click on New Transfer button from home page. | User should be able to view all the accounts. |
     | `High Priority` | Transfer amount from one account to another account. | Fund should be transferred and charts should be updated. |
-    | `High Priority` | Transfer amount from same account to same account. | User should not be able to transfer the amount. |
+    | `Low Priority` | Transfer amount from same account to same account. | User should not be able to transfer the amount. |
 
 4. Pro Features    
 * > Test_Suite_5
@@ -99,8 +99,8 @@ Above aspects are divided into further two categories :
     | `High Priority` | Change language to other lanuage. | Data should be present & and all the information should be localized. |
     | `High Priority` | Swipe balance button Up/down. | User should be able to swipe. |
     | `High Priority` | Select day/week/month/year/interval from filters. | User should be able to change filters and data/charts should be updated based on the filters. |
-    | `High Priority` | Swipe left & right between Day/Weeks. | User should be able to swipe left and right. |
-    | `High Priority` | Send app to background with multiple app and load it again. | App's state should be intact and data should be present. |
+    | `Medium Priority` | Swipe left & right between Day/Weeks. | User should be able to swipe left and right. |
+    | `Medium Priority` | Send app to background with multiple app and load it again. | App's state should be intact and data should be present. |
 
 ##### Scenario 4 : Settings 
 * > Test_Suite_7 
@@ -118,7 +118,7 @@ Above aspects are divided into further two categories :
     | `High Priority` | (Privacy Policy) Select "Privacy Policy" from settings | Used should be redirected to the monefy policy page & can switch back to app. |
     | `High Priority` | (Data Backup) Select "Create data Backup" from settings | User should be able to save the backup file. |
     | `High Priority` | (Data Backup) Select "Restore Data" from settings | User should be able to restore data from the backup file. |
-    | `High Priority` | (Data Backup) Select "Clear Data" from settings | All the data & data backup should be removed. |
+    | `Meduim Priority` | (Data Backup) Select "Clear Data" from settings | All the data & data backup should be removed. |
 * > Test_Suite_8 
     (With Pro)
 
@@ -128,7 +128,7 @@ Above aspects are divided into further two categories :
     | `High Priority` | (Synchronization) Select Dropbox/Google Drive and let it redirect. | User should be able to login to their account. |
     | `High Priority` | (Passcode Protection) Select a passcode from the settings. | Passcode should be available at app launch |
     | `High Priority` | (Passcode Protection) Launch app & enter passcode. | User should be able to access app. |
-    | `High Priority` | (Dark theme) Select the dark theme from settings | App theme should be updated. |
+    | `Medium Priority` | (Dark theme) Select the dark theme from settings | App theme should be updated. |
 
 
 ### Non-Functional Tests
@@ -161,7 +161,7 @@ Above aspects are divided into further two categories :
     | `High Priority` | Launch app after a crash. | App should perform well after the crash and data should not be lost. |
     | `High Priority` | Message on app crash. | User should be able to see crash message and can send crash report to the server. |
     | `High Priority` | App force shutdown from settings. | App should shutdown gracefully and data should be intact. |
-    | `High Priority` | App shutdown due to battery dies. | App should be closed properly. |
+    | `Medium Priority` | App shutdown due to battery dies. | App should be closed properly. |
     
 ##### Scenario 3 : Upgrade/Rollback
 * > Test_Suite_12
