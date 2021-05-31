@@ -20,27 +20,27 @@ Test cases of GnuCash application are divided based on the features present in t
 Test Strategy is mainly focused on feature validation and app interaction with end user and system.
 - CRUD is used for all basic featured
     * Create : Creation of records.
-    * Read : Redability of records.
+    * Read : Readability of records.
     * Update : Updation of records.
     * Delete : Deletion of records.
 
 **Framework** : Unified transferrable framework has been prepared based on Page Object Model (POM)
 
-### Famework Highlight
+### Famework Highlights
 ---
-- **Extendibility** : Can be used to automate same test case with IOS as well.
+- **Extendibility** : Can be used to automate same test cases with IOS as well.
 - **Unified** : Cases for backend/RestAPI's can be merged with the framework.
-- **Logging** : Logging is a separate entity so can be changed to any mechanism
+- **Logging** : Logging is a separate entity so can be changed to any mechanism.
 - **Independent identity** : There is no dependency between test cases.
-- **Integratable** : Since maven is a well know tool it can be easily integrated with CI/CD.
-- **Parallel Run** : Cases can be run parallely just by small tweking.
+- **Integration** : Since maven is a well know tool it can be easily integrated with CI/CD.
+- **Parallel Run** : Cases can be run parallely just by small tweaking.
 
 ### Scope to Add
 ---
 - Retry Mechanism.
 - IOS app path.
 - Customized reporting tool.
-- Integration with CI/CD
+- Integration with CI/CD.
 
 ### Technology Stack
 ---
@@ -48,13 +48,13 @@ Test Strategy is mainly focused on feature validation and app interaction with e
 - **Build Automation** : Maven
 - **Mobile app automation lib** : Appium
 - **Test Manager** : TestNG
-- **Reporting Framerork** : Extent Reports
+- **Reporting Framework** : Extent Reports
 - **IDE** : Eclipse
 
-### Prerequistes To Run Tests
+### Prerequisites To Run Tests
 ---
 - Java should be installed on the system and $JAVA_HOME / Maven(mvn) should be configured.
-- Change the device name and platfrom version according the device attached to the system.
+- Change the device name and platform version according the device attached to the system.
 
 
 ### Steps to run test
