@@ -4,13 +4,13 @@
 
 ## Introduction
 ---
-While preparing a test Plan multiple aspects can be considered. This test plan is preapred considering general & mobile application specific aspects which are further combined in two major aspect for an application.
+While preparing a test Plan multiple aspects can be considered. This test plan is prepared considering general & mobile application specific aspects which are further combined in two major aspect for an application.
 
 1. General Aspects
     
-    * Features.
-    * UI / Usability scenarios.
-    * Install / Upgrade.
+    * Features
+    * UI / Usability scenarios
+    * Install / Upgrade
     * Performance
     * Security
     * System Interaction
@@ -19,10 +19,10 @@ While preparing a test Plan multiple aspects can be considered. This test plan i
 2. Mobile Specific Aspects
 
     * Multiple device compatibility with customized OS version.
-    * Backword compatibility with different OS version.
+    * Backward compatibility with different OS version.
     * Testing on different screen resolution.
 
-Above aspects are devided into further two categories :
+Above aspects are divided into further two categories :
 
 1. Functional Test Cases
 2. Non Functional Test cases
@@ -30,8 +30,8 @@ Above aspects are devided into further two categories :
 
 ### Test Strategy
 ---
-- Test cases are diveded into suites which consists specific test cases to test a particular feature or area.
-- Strategy followed while preparing this test plan is test pyramid which is widely used and most efficent for testing mobile application.
+- Test cases are divided into suites which consists specific test cases to test a particular feature or area.
+- Strategy followed while preparing this test plan is test pyramid which is widely used and most efficient for testing mobile application.
 ![N|Solid](https://d2h1nbmw1jjnl.cloudfront.net/ckeditor/pictures/data/000/000/784/content/testpyramid_2.png)
 - Prioritization of the test cases according to the business impact are divided into three categories. `High Priority`, `Medium Priority`, `Low Priority`
 
@@ -45,11 +45,11 @@ Above aspects are devided into further two categories :
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
     | `High Priority` | Installation of app from play store (android).| Installation should be successful.|
-    | `High Priority` | Upgradation the app to the latest version | Validate the user data, settings should be same & available.|
+    | `High Priority` | Upgrade of app to the latest version | Validate the user data, settings. They should be same.|
     | `High Priority` | Installation of app on different devices & OS versions.| Validate the app should be installed.|
     | `High Priority` | Add & Remove required permission for app. | App should work fine in case of full and less permission.|
-    | `High Priority` | Uninstall the app & install in again. | App should be uninstalled properly & after install data should be restored. |
-    | `High Priority` | App after system OS upgrade. | Validate the user data and app should work fine.|
+    | `High Priority` | Uninstall the app & install it again. | App should be uninstalled properly & after install data should be restored. |
+    | `High Priority` | Validate App after system OS upgrade. | Validate the user data and app should work fine.|
 
 ##### Scenario 2 : Feature Especial
 
@@ -69,9 +69,9 @@ Above aspects are devided into further two categories :
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
     | `High Priority` | Add Income and expenses for multiple categories | Income / Expense should be added & balance should be updated according to amount added.|
-    | `High Priority` | Edit Income and expenses for multiple categories | Updation should be successful & balance should be updated accourding to amount edited. |
+    | `High Priority` | Edit Income and expenses for multiple categories | Updation should be successful & balance should be updated according to amount edited. |
     | `High Priority` | Delete income and expenses for multiple categories | Validate the amount should be properly deleted & balance should be updated. |
-    | `High Priority` | Change payment method while adding/updating expense | account shouyld be changable while adding amount. |
+    | `High Priority` | Change payment method while adding/updating expense | Account should be changeable while adding amount. |
 
 3. Transfer Feature
 * > Test_Suite_4
@@ -88,7 +88,7 @@ Above aspects are devided into further two categories :
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
     | `High Priority` | As a free user, Access Pro features like custom category/Multi-currency/synchronization/Passcode etc. | Features should not be accessbile and prompt to buy monefy pro. |
-    | `High Priority` | As a free user, Buy Monefy pro using different payment method. | User should be able to buy pro. |
+    | `High Priority` | As a free user, Buy Monefy pro using different payment methods. | User should be able to buy pro. |
     | `High Priority` | As a pro user, Access Pro features like custom category/Multi-currency/synchronization/Passcode etc. | Features should be accessbile to the user. |
 
 ##### Scenario 3 : UI / Usability
@@ -125,7 +125,7 @@ Above aspects are devided into further two categories :
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
     | `High Priority` | (Synchronization) Select Dropbox/Google Drive from settings | User should be able to view and export data from both the options. |
-    | `High Priority` | (Synchronization) Select Dropbox/Google Drive and let it redirect. | User should be able login to their account. |
+    | `High Priority` | (Synchronization) Select Dropbox/Google Drive and let it redirect. | User should be able to login to their account. |
     | `High Priority` | (Passcode Protection) Select a passcode from the settings. | Passcode should be available at app launch |
     | `High Priority` | (Passcode Protection) Launch app & enter passcode. | User should be able to access app. |
     | `High Priority` | (Dark theme) Select the dark theme from settings | App theme should be updated. |
@@ -138,7 +138,7 @@ Above aspects are devided into further two categories :
 
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
-    | `High Priority` | Check for the application data saved. | Data should encrypted. |
+    | `High Priority` | Check for the application data saved. | Data should be encrypted. |
     | `High Priority` | Apply global phone lock passcode to app. | Lock should be applied and user should be able to access app after entering key |
     | `High Priority` | Check for vulnerability library used. | There should not be any vulnerability library present. |
 
@@ -158,10 +158,10 @@ Above aspects are devided into further two categories :
 
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
-    | `High Priority` | Launch ap after a crash. | App should perform well after the crash and data should not be lost. |
+    | `High Priority` | Launch app after a crash. | App should perform well after the crash and data should not be lost. |
     | `High Priority` | Message on app crash. | User should be able to see crash message and can send crash report to the server. |
-    | `High Priority` | App force shutdown from settings. | App should be exited and data should be intact. |
-    | `High Priority` | App shoutdown due to battery dies. | App should be closed properly. |
+    | `High Priority` | App force shutdown from settings. | App should shutdown gracefully and data should be intact. |
+    | `High Priority` | App shutdown due to battery dies. | App should be closed properly. |
     
 ##### Scenario 3 : Upgrade/Rollback
 * > Test_Suite_12
@@ -169,4 +169,4 @@ Above aspects are devided into further two categories :
     | Priority | Test Case Description | Expected Result |
     | -------- |---------------------- | --------------- |
     | `High Priority` | Upgrade of app. | App should not over consume RAM. |
-    | `High Priority` | Upgrade on low battery or error during upgrade. | Application should be rolled back propery when upgrade interuppted in mid. |
+    | `High Priority` | Upgrade on low battery or error during upgrade. | Application should be rolled back propery when upgrade interuppted. |
