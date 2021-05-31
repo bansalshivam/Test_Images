@@ -1,7 +1,6 @@
 # GnuCash Android App Automation
 ## _Test Strategy, Test Suite, Test Cases_
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 ### Introduction
 ---
@@ -67,6 +66,6 @@ mvn clean test -Dplatform="android"
 
 ### Reports
 ```bash
-cd Reports
+cd target/Reports
 ```
 Check for the Html file.
